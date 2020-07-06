@@ -1,0 +1,325 @@
+html {
+    background-color: #fff;
+    color: #333;
+    font-size: 17px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+body {
+    float: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 66em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#name {
+    margin-left: 0em;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+  }
+
+div#name h1 {
+    margin-left: 0em;
+    margin-bottom: 0em;
+    color: rgb(15, 80, 155);
+}
+
+div#name a, div#name a.active, div#name a.hover {
+    color: rgb(15, 80, 155);
+    text-decoration: none;
+}
+
+div#navbar {
+    float: right;
+    margin-right: 0em;
+    margin-top: -3.8em;
+}
+
+div#navbar a {
+    font-size: 11px;
+    color: #444;
+    text-decoration: none;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin: 0 0.6em;
+    padding-top: 34px;
+}
+
+div#navbar a#FeaturesIcon {
+    background-image: url('/images/dialog-information.png');
+}
+
+div#navbar a#DocumentationIcon {
+    background-image: url('/images/help-browser.png');
+}
+
+div#navbar a#DownloadIcon {
+    background-image: url('/images/go-down.png');
+}
+
+div#navbar a#ScreenshotsIcon {
+    background-image: url('/images/image-x-generic.png');
+}
+
+div#divider {
+    background: rgb(60, 125, 195);
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    height: 0.3em;
+}
+
+ul#navmenu {
+    float: left;
+    width: 11em;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+    border: solid rgb(208, 208, 208);
+    border-width: 1px 1px 1px 1px;
+}
+
+ul#navmenu li {
+    list-style: none;
+}
+
+ul#navmenu li a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+ul#navmenu a:hover, ul#navmenu a:active {
+    color: rgb(15, 80, 155);
+    text-decoration: underline;
+}
+
+ul#navmenu a.active {
+    color: rgb(254, 204, 0);
+}
+
+ul#navmenu li div {
+    margin-top: 0em; 
+    margin-bottom: 0.4em;
+    margin-left: 0em;
+    padding-left: 1em;
+
+    border: solid rgb(208, 208, 208);
+    border-width: 0px 1px 0px 0px;
+
+    font-size: 8;
+    font-weight: bold;
+    background: rgb(235, 235, 235);
+}
+
+ul.submenu {
+    padding-left: 1em;
+    padding-bottom: .5em;
+}
+
+ul.submenu li {
+    list-style: none;
+}
+
+ul.submenu ul {
+    padding-left: 1em;
+    list-style: none;
+    padding-bottom: .5em;
+}
+
+div#sidebar a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+div#sidebar a:hover, div#sidebar a:active {
+    color: rgb(15, 80, 155);
+    text-decoration: underline;
+}
+
+div#sidebar a.active {
+    color: rgb(254, 204, 0);
+}
+
+div#sidebar {
+    float: left;
+    width: 11em;
+
+    border: solid rgb(208, 208, 208);
+    border-width: 1px 1px 1px 1px;
+}
+
+div#sidebar h4 {
+    margin-top: 0em;
+    margin-bottom: 0.4em;
+    margin-left: 0em;
+
+    border: solid rgb(208, 208, 208);
+    border-width: 0px 1px 0px 0px;
+
+    font-size: 8;
+    font-weight: bold;
+    background: rgb(235, 235, 235);
+}
+
+div#sidebar ul {
+    margin: 0em;
+    padding: 0em 0em 0.5em 0.9em;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+}
+
+div#sidebar a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+div#sidebar a:hover, div#sidebar a:active {
+    color: rgb(15, 80, 155);
+    text-decoration: underline;
+}
+
+div#sidebar a.active {
+    color: rgb(254, 204, 0);
+}
+
+div#content {
+    box-sizing: content-box;
+    position: relative;
+    padding: 1em 0em 1em 2em;
+    margin-left: 11em;
+    width: 53em;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    border: solid rgb(208, 208, 208);
+    border-width: 1px 0px 0px 1px;
+}
+
+.urlextern {
+    background-image: url("/images/external-link.png");
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-position-x: 0px;
+    background-position-y: 50%;
+    padding-left: 18px;
+}
+
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 6px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2}
+
+.table th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #7C809F;
+    color: white;
+}
+
+.downloads {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.downloads td, .downloads th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 6px;
+}
+
+.downloads tr:nth-child(even){background-color: #f2f2f2}
+
+.downloads th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #6C70CF;
+    color: white;
+}
+
+.downloads-dev {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.downloads-dev td, .downloads-dev th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 6px;
+}
+
+.downloads-dev tr:nth-child(even){background-color: #f2f2f2}
+
+.downloads-dev th, .downloads th.dev {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #CF706C;
+    color: white;
+}
+
+.plugins {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.plugins td, .plugins th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 6px;
+}
+
+.plugins tr:nth-child(even){background-color: #f2f2f2}
+
+.plugins th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #6C70CF;
+    color: white;
+}
+
+.features {
+    border-collapse: collapse;
+}
+
+.features td, .features th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 1px 5px 0px 5px;
+}
+
+.features tr:nth-child(even){background-color: #f2f2f2}
+
+.features th {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #8C808F;
+    color: white;
+}
+
+.features-done {
+    background-color: #8fff8f;
+}
+
+.features-todo {
+    background-color: #ffbf8f;
+}
+
+.code_example {
+    font-size: 14px;
+}
