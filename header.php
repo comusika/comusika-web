@@ -23,6 +23,8 @@ if (!empty($prefix)) {
     <ul class="submenu">
     <li><a href="<?php echo $rootPrefix; ?>?news">News</a></li>
     <li><a href="<?php echo $rootPrefix; ?>?about">About</a></li>
+    <li><a href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a></li>
+    <li><a href="<?php echo $rootPrefix; ?>?downloads">Downloads</a></li>
     </ul>
   </li>
   <li><div>Development</div>
