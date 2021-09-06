@@ -9,12 +9,12 @@ function echoDownload($arr) {
 <p>Releases are experimental and useful only for preview/testing...</p>
 <p>TODO</p>
 <p>
-<a href="download/?<?php echo $downloads['studio']['stb'][0]['file']; ?>" class="button button-green"><img src="images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
-<a href="download/?<?php echo $downloads['studio']['stb'][1]['file']; ?>" class="button button-green"><img src="images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;Download ZIP (Other platforms)</a></p>
+<?php /*<a href="download/?<?php echo $downloads['studio']['stb'][0]['file']; ?>" class="button button-green"><img src="images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
+<a href="download/?<?php echo $downloads['studio']['stb'][1]['file']; ?>" class="button button-green"><img src="images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;Download ZIP (Other platforms)</a></p> */ ?>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Studio</td>
-  <td><?php echoDownload($downloads['studio']['stb']); ?></td>
+  <td><?php /* echoDownload($downloads['studio']['stb']); */ ?></td>
 </table>
 <p><a href="?older-downloads">Older releases</a></p>
 

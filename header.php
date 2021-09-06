@@ -11,11 +11,11 @@ if (!empty($prefix)) {
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="SHORTCUT ICON" href="bined.ico" />
 <link href="<?php echo $parentPrefix; ?>css/site.css" rel="stylesheet">
-<title>Comsonica - Audio Editor</title>
+<title>Comusika - Community Music Studio</title>
 </head>
 
 <body>
-<div id="name"><h1>Comsonica - Audio Editor</a></h1></div>
+<div id="name"><h1>Comusika - Community Music Studio</a></h1></div>
 <div id="divider"></div>
 
 <ul id="navmenu">

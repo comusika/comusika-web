@@ -1,7 +1,7 @@
-Comsonica - Website Pages
+Comusika - Website Pages
 =========================
 
 This repository contains source files for project's website.
 
-Homepage: https://comsonica.exbin.org  
+Homepage: https://comusika.exbin.org  
 

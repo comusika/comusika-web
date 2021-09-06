@@ -13,23 +13,23 @@
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'exe';
-      $variants['stb'][0]['file'] = 'comsonica-studio-'.$stb_ver.'-win32.exe';
+      $variants['stb'][0]['file'] = 'comusika-studio-'.$stb_ver.'-win32.exe';
       $variants['stb'][1]['name'] = 'ZIP';
       $variants['stb'][1]['ver'] = $stb_ver;
       $variants['stb'][1]['date'] = $stb_date;
       $variants['stb'][1]['icon'] = 'zip';
-      $variants['stb'][1]['file'] = 'comsonica-studio-'.$stb_ver.'.zip';
+      $variants['stb'][1]['file'] = 'comusika-studio-'.$stb_ver.'.zip';
 
 /*      $variants['dev'][0]['name'] = 'Windows Installer';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'exe';
-      $variants['dev'][0]['file'] = 'comsonica-studio-'.$dev_ver.'-'.$dev_snap.'-win32.exe'; */
+      $variants['dev'][0]['file'] = 'comusika-studio-'.$dev_ver.'-'.$dev_snap.'-win32.exe'; */
       $variants['dev'][1]['name'] = 'ZIP';
       $variants['dev'][1]['ver'] = $dev_ver;
       $variants['dev'][1]['date'] = $dev_date;
       $variants['dev'][1]['icon'] = 'zip';
-      $variants['dev'][1]['file'] = 'comsonica-studio-'.$dev_ver.'-'.$dev_snap.'.zip';
+      $variants['dev'][1]['file'] = 'comusika-studio-'.$dev_ver.'-'.$dev_snap.'.zip';
 
       $result['studio'] = $variants;
     }
