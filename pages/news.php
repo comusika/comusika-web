@@ -1,6 +1,8 @@
 <div id="content">
+<p>Under development: Mashup audio / music editor written in Java.</p>
+
 <h1>News</h1>
-<p>Under development: Audio editor written in Java.</p>
+<p>-</p>
 
 </body>
 </html>

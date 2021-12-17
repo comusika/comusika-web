@@ -6,8 +6,8 @@
 //      $stb_ver = '0.2.0';
 //      $stb_date = '2017-01-20';
       $dev_ver = '0.1.1';
-      $dev_date = '2020-07-06';
-      $dev_snap = 'SNAPSHOT-20200708';
+      $dev_date = '2021-12-17';
+      $dev_snap = 'SNAPSHOT-20211217';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
